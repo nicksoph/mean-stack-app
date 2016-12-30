@@ -1,13 +1,13 @@
 {
-  "name": "mean-app",
+  "name": "mean",
   "version": "1.0.0",
-  "description": "MEAN stack application",
+  "description": "mean stack app",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/nicksoph/mean-stack-app.git"
   },
@@ -17,7 +17,7 @@
     "url": "https://github.com/nicksoph/mean-stack-app/issues"
   },
   "homepage": "https://github.com/nicksoph/mean-stack-app#readme",
-    "dependencies": {
+  "dependencies": {
     "express": "^4.14.0"
   },
   "devDependencies": {
