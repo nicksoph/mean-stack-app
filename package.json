@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fullstacktraining/mean-stack-hero.git"
+    "url": "git+https://github.com/nicksoph/mean-stack-app.git"
   },
   "keywords": [
     "mean"
@@ -17,9 +17,9 @@
   "author": "Full Stack Training",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fullstacktraining/mean-stack-hero/issues"
+    "url": "https://github.com/nicksoph/mean-stack-app.git/issues"
   },
-  "homepage": "https://github.com/fullstacktraining/mean-stack-hero#readme",
+  "homepage": "https://github.com/nicksoph/mean-stack-app.git/#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.3",
