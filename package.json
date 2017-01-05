@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/nicksoph/mean-stack-app.git/issues"
   },
-  "homepage": "https://github.com/nicksoph/mean-stack-app.git/#readme",
+  "homepage": "https://github.com/nicksoph/mean-stack-app.git#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.3",
