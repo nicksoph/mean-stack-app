@@ -180,6 +180,39 @@ module.exports.hotelsAddOne = function (req, res) {
 };
 
 
+module.exports.hotelsUpdateOne = function (req, res) {
+  var hotelId = req.params.hotelId;
+  console.log('GET hotelId', id);
+
+  Hotel
+    .findById(hotelId)
+    .exec(function (err, doc) {
+      var response = {
+        status: 200,
+        message: doc
+      };
+      if (err) {
+        console.log("Error finding hotel");
+        response.status = 500;
+        response.message = err;
+      } else if (!doc) {
+        console.log("HotelId not found in database", id);
+        response.status = 404;
+        response.message = {
+          "message": "Hotel ID not found " + id
+        };
+      }
+      res
+        .status(response.status)
+        .json(response.message);
+    });
+};
+
+
+
+
+
+
 // console.log("POST new hotel");
 //   var db = dbconn.get();
 //   var collection = db.collection('hotels');
